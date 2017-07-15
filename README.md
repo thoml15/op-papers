@@ -8,13 +8,12 @@ op-papers
 =========
 
 I am a lecturer in the Bachelor of Information Technology (BIT) programme at 
-Otago Polytechnic in Dunedin, New Zealand. This programme, and my own work 
-within it, focuses on teaching students to be well prepared to enter the
+Otago Polytechnic in Dunedin, New Zealand. This programme focuses on teaching
+students to be well prepared to enter the
 IT profession. As such, it contains a bit less theory and a bit more practice than one
-might normally expect in a computer science course. In the BIT we 
-strive to use current tools and to demonstrate current industry best practices.
-In this setting it's natural to use Git and GitHub to manage and share teaching
-materials.
+might normally expect in a typical computer science course.  I'm continuing Tom Clark's
+practice of using contemporary tools (in this case Git and GitHub) to manage and
+share teaching materials.
 
 Teaching documents in this repository are offered under a Creative Commons
 Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/) 
