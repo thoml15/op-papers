@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%\usepackage{inconsolata}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage[parfill]{parskip}
+\usepackage[margin = 2.5cm]{geometry}
+
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+
+\title{Exercising your curiosity about Containers\\ IN720 Virtualisation}
+\date{}
+\maketitle
+
+\section*{Introduction}
+Throughout this paper, we're going to take a tour of different kinds of virtualisation.  To begin, we'll look at ``Containers,'' a form of {\em lightweight} virtualisation where isolated applications all share the same operating system kernel.
+
+Your lecturer for this paper does not arrive in Dunedin until Week Two of the semester.  By then, I want us to be able to have fun trying stuff out!  All things going well, we will have a new virtualisation environment that we can use to test out Linux Containers and the Docker system.
+
+Until then\ldots
+
+\section*{Preparing for a Conversation about Containers}
+
+IT professionals should be able to explain things {\em succinctly and coherently} when asked.  So here's a question for you:
+\begin{quote}
+{\em I understand why you might want a virtual machine.  Maybe you sell web servers as a service, and you want to run lots of servers on one physical machine.  Or maybe you need to develop under several operating systems at once---you can avoid installing them on multiple machines, or avoid rebooting to access each OS.  But I hear there are these things called Containers, and people are even talking about Containerisation\ldots What's a Container for? What's the typical use case? Is there anybody I've heard of who's using them and what are they doing?}
+\end{quote}
+
+\begin{itemize}
+\item To start getting a handle on Containers, check out my new favourite site {\tt sysadmincasts.com}.
+Episode 24 explains LXC: \url{http://bit.ly/2v6ksnt}. (Read/watch/listen to all their other stuff too; it's pretty good.)
+
+\item InfoWorld has a short, up-to-date article on Docker at \url{http://bit.ly/2sthXcF}.
+
+\item You may also like to read freecodecamp's introduction to containers: 
+\url{http://bit.ly/2tYeZyX}.
+\end{itemize}
+
+Come to Week Two's session ready for some class discussion on Containers, and what you can do with them.
+
+\end{document}
